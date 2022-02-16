@@ -10,6 +10,10 @@ window.onload = function() {
   console.log("Hello Rigo from the console!");
 };
 
-let pronoun = ["the", "our"];
-let adj = ["great", "big"];
-let noun = ["jogger", "racoon"];
+let domainGenerator = () => {
+  let pronoun = ["the", "our"];
+  let adj = ["great", "big"];
+  let noun = ["jogger", "racoon"];
+
+  let índicePronoun = Math.floor(Math.random() * pronoun.length);
+};
